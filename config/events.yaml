@@ -1,0 +1,13 @@
+events:
+  - name: AddressUpdated
+    fields:
+      - CustomerID
+  - name: OrderPlaced
+    fields:
+      - OrderID
+      - CustomerID
+  - name: PaymentCompleted
+    fields:
+      - PaymentID
+      - OrderID
+      - CustomerID
